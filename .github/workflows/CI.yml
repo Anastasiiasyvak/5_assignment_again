@@ -22,10 +22,10 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run unit tests for reports
-      run: pytest test_reports
+      run: pytest /home/nastia/PycharmProjects/5_assignment_fse/test_reports.py
 
     - name: Run unit tests for main
-      run: pytest test_main
+      run: pytest /home/nastia/PycharmProjects/5_assignment_fse/test_main.py
 
     - name: Run unit tests for users
-      run: pytest test_users
+      run: pytest /home/nastia/PycharmProjects/5_assignment_fse/test_users.py
